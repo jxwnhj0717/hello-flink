@@ -35,7 +35,7 @@ public class Demo01 {
 
     }
 
-    private static class MyMapFunc extends RichMapFunction<Tuple2<String, Long>, Tuple2<String, Long>> {
+    static class MyMapFunc extends RichMapFunction<Tuple2<String, Long>, Tuple2<String, Long>> {
         private ValueState<Long> state;
         private long sum = 0;
         @Override

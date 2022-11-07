@@ -29,3 +29,4 @@ hs_err_pid*
 hello-flink/out2.txt/**
 hello-flink/out1
 **/.DS_Store
+state/checkpoints/**
